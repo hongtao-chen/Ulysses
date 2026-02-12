@@ -27,7 +27,7 @@ Ulysses utilizes active AI agents that don't just monitor—they interact and si
 
 ### 2. The Socratic Journal (Journal 2.0)
 
-* **NLP Sentiment Parsing:** Using Transformers (like Hugging Face or SpaCy), Ulysses parses your trade notes to identify triggers like fear, greed, or uncertainty.
+* **NLP Sentiment Parsing:** Using powerful local models, Ulysses parses your trade notes offline to identify triggers like fear, greed, or uncertainty.
 * **Generative Debunking:** When the system detects a bias (e.g., "This time is different"), a Generative AI Coach engages you in **Socratic questioning**, forcing you to rationalize the trade against your long-term goals before the "Buy" button is unlocked.
 
 ### 3. Adaptive Behavioral Interface
@@ -41,13 +41,13 @@ Ulysses utilizes active AI agents that don't just monitor—they interact and si
 
 The architecture is split between a high-performance rational engine and a generative nudging interface.
 
-| Component | Technology | Purpose |
-| --- | --- | --- |
-| **Frontend** | React / Vue.js, TypeScript | Dynamic UI for "Visual Reframing" and user interaction. |
-| **Backend** | Node.js | Core logic, API handling, and trade execution. |
-| **AI/ML Layer** | **Local 7B / 32B LLM** | Predictive modeling for FOMO detection and volatility analysis. |
-| **GenAI Engine** | **Gemini / OpenAI / Anthropic** | Generative Socratic coaching and sentiment synthesis. |
-| **Database** | ? SQL | Secure storage for trade history and psychological profiles. |
+| Component        | Technology                      | Purpose                                                         |
+| ---------------- | ------------------------------- | --------------------------------------------------------------- |
+| **Frontend**     | React / Vue.js, TypeScript      | Dynamic UI for "Visual Reframing" and user interaction.         |
+| **Backend**      | Node.js                         | Core logic, API handling, and trade execution.                  |
+| **AI/ML Layer**  | **Local 7B / 32B LLM**          | Predictive modeling for FOMO detection and volatility analysis. |
+| **GenAI Engine** | **Gemini / OpenAI / Anthropic** | Generative Socratic coaching and sentiment synthesis.           |
+| **Database**     | ? SQL                           | Secure storage for trade history and psychological profiles.    |
 
 ---
 
